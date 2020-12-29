@@ -1,7 +1,7 @@
 package org.train.proxy;
 
 /**
- * description
+ * 代理实例
  *
  * @author zhaolinjie 2020/12/29 11:27
  */

@@ -26,4 +26,5 @@ public class WeddingCompany implements ProxyInterface {
 
         System.out.println("结婚完毕，我们需要做后续处理，你们可以回家了，其余的事情我们公司来做");
     }
+
 }

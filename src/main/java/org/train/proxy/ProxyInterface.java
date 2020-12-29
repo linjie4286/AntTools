@@ -8,4 +8,5 @@ package org.train.proxy;
 public interface ProxyInterface {
 
     void marry();
+
 }
