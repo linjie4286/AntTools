@@ -9,6 +9,7 @@ public class StrategyMain {
 
     public static void main(String[] args) {
         String msg = ":open";
+        // 未测试通过
         StrategyServiceContext strategyServiceContext = new StrategyServiceContext();
         IStrategyService instance = strategyServiceContext.getInstance(msg);
         instance.process(msg) ;
