@@ -1,5 +1,7 @@
 package org.train.strategy.impl;
 
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 import org.train.strategy.IStrategyService;
 
 /**
@@ -7,6 +9,8 @@ import org.train.strategy.IStrategyService;
  *
  * @author zhaolinjie 2020/12/28 16:21
  */
+@Service
+@Component
 public class CloseStrategyService implements IStrategyService {
 
     public void process(String msg) {
